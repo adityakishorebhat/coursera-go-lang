@@ -3,31 +3,6 @@ package main
 import "fmt"
 import "strings"
 
-// func main() {
-//   fmt.Printf("Enter a string : ")
-//   var inputString string
-//   inputString = strings.ToLower(inputString)
-//   num, _ := fmt.Scan(&inputString)
-//   if num > 0 {
-//     if (strings.Contains(inputString, "a")) {
-//       var found bool = true
-//       for i, c := range inputString {
-//         if i == 0 && c != "i" {
-//           found = false
-//           fmt.Println("Not found!")
-//           break
-//         } else if i == len(inputString - 1) && c != "n" {
-//           found = false
-//           fmt.Println("Not found!")
-//         }
-//       }
-//       if found == true {
-//         fmt.Println("Found!")
-//       }
-//     }
-//   }
-// }
-
 func main() {
     fmt.Printf("Enter a string : ")
     var inputString string
